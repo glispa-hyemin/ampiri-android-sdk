@@ -1,6 +1,6 @@
 # Ampiri Android SDK 3.x Integration Guide
 
-* [Updating your Android Manifest](#markdown-header-updating-your-android-manifest)
+* [Updating your Android Manifest](#updating-your-android-manifest)
 * [Standard banners](#markdown-header-standard-banners)
 * [Interstitials](#markdown-header-interstitial-ads)
 * [Video](#markdown-header-video-ads)

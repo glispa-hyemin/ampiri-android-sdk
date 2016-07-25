@@ -1,17 +1,17 @@
 # Ampiri Android SDK 3.x Integration Guide
 
 * [Updating your Android Manifest](#updating-your-android-manifest)
-* [Standard banners](#markdown-header-standard-banners)
-* [Interstitials](#markdown-header-interstitial-ads)
-* [Video](#markdown-header-video-ads)
-* [Native Ads](#markdown-header-native-ads)
-* [In Feed Ads](#markdown-header-in-feed-ads)
-* [Ad events handling](#markdown-header-ad-events-handling)
-* [Activity lifecycle events handling](#markdown-header-activity-lifecycle-events-handling)
-* [User Data](#markdown-header-user-data)
-* [Log](#markdown-header-log)
-* [Debug mode](#markdown-header-debug-mode)
-* [Test devices](#markdown-header-test-devices)
+* [Standard banners](#standard-banners)
+* [Interstitials](#interstitial-ads)
+* [Video](#video-ads)
+* [Native Ads](#native-ads)
+* [In Feed Ads](#in-feed-ads)
+* [Ad events handling](#ad-events-handling)
+* [Activity lifecycle events handling](#activity-lifecycle-events-handling)
+* [User Data](#user-data)
+* [Log](#log)
+* [Debug mode](#debug-mode)
+* [Test devices](#test-devices)
 
 ## Updating your Android Manifest
 
@@ -93,7 +93,7 @@ When the banner download is completed, you can display the banner by calling `sh
 interstitialAd.showAd();
 ```
 
-To learn about download completion, subscribe to banner events (see [Ad events handling](#markdown-header-ad-events-handling)) or call method `isReady()`.
+To learn about download completion, subscribe to banner events (see [Ad events handling](#ad-events-handling)) or call method `isReady()`.
 ```java
 interstitialAd.isReady();
 ```
@@ -144,7 +144,7 @@ When the video download is completed, you can display it by calling the `showAd(
 videoAd.showAd();
 ```
 
-To learn about download completion, subscribe to video banner events (see [Ad events handling](#markdown-header-ad-events-handling) section) or call method `isReady()`.
+To learn about download completion, subscribe to video banner events (see [Ad events handling](#ad-events-handling) section) or call method `isReady()`.
 ```java
 videoAd.isReady();
 ```
@@ -308,7 +308,7 @@ ignored. In this case, only the last request will be processed.
 
 When banner download is completed, you can display the banner by calling `showAd()` method.
 
-To learn about download completion, subscribe to ad events (see [Ad events handling](#markdown-header-ad-events-handling) section) or call method `isReady()`.
+To learn about download completion, subscribe to ad events (see [Ad events handling](#ad-events-handling) section) or call method `isReady()`.
 ```java
 nativeAd.isReady();
 ```
@@ -329,7 +329,7 @@ After calling the `loadAd()` method, the in-feed ad download starts. If you call
 
 When in-feed ad download is completed, it will show automatically.
 
-To learn about download completion, subscribe to ad events (see [Ad events handling](#markdown-header-ad-events-handling) section).
+To learn about download completion, subscribe to ad events (see [Ad events handling](#ad-events-handling) section).
 
 
 ## Ad events handling
